@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: '=', s: +}
-  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer2
   - {t: ;, s: ':'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: /, s: '?'}
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -129,7 +129,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   layer2:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
